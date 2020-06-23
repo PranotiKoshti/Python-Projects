@@ -1,6 +1,6 @@
-""" GET THE LONGEST STREAK OF 1s IN AN ARRAY """
+""" GET THE LENGTH OF LONGEST STREAK OF 1s IN AN ARRAY """
 
-a = [1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0]
+a = list(map(int, input().split()))       #[1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0]
 n = len(a)
 c1 = cnt = 0
 for i in range(n):
